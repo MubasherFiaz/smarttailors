@@ -1,0 +1,99 @@
+
+
+
+
+.lo{
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  margin: 80px auto;
+  padding: 60px;
+  box-shadow: 2px 2px 70px rgb(216, 209, 209);
+  border-radius: 5px;
+
+}
+ .lo i.fa.fa-users{
+  font-size: 60px;
+  color: #e7ab3c;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .lo h2{
+  font-family: tahoma;
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .lo .in ,.b{
+  width: 100%;
+  border-radius: 5px;
+}
+.grou{
+  position: relative;
+ margin-top: 30px;
+}
+ .grou .in{
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #dfdbd9;
+  
+}
+ .grou .icn{
+  position: absolute;
+  left: 15px;
+  top: 13.3333px;
+  color: #e7ab3c;
+}
+.lo  .b{ 
+  padding: 10px;
+  border: 0;
+color: rgb(31, 28, 28);
+  /* background-image: linear-gradient(to right,red,blue); */
+  background-color: #dfdbd9 ;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.b:hover{
+  color: white;
+  background-color:  #e7ab3c;
+  box-shadow: 0px 10px 5px rgba(53, 49, 49, 0.125);
+transition: .7s linear;
+}
+
+.lo .grou .in:focus,.in:focus::placeholder,.in:focus+i.fa{
+  color: #e7ab3c;
+  border-color:  #e7ab3c;
+   
+}
+
+.lo .grou .in:focus{
+  border-color:  #e7ab3c;
+  font-size: 16px;
+  
+ 
+}
+.lo .grou .in{
+  font-size: 14px;
+}
+.lo .in,.b,a,p{
+  font-size: 13.3333px;
+  font-weight: 600;
+}
+
+.ss{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+font-size: 16px;
+}
+.ss a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #e7ab3c;
+}

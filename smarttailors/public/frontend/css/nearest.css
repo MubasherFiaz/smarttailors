@@ -1,0 +1,220 @@
+.team{
+    padding: 50px 0;
+    height:50vh;
+    box-sizing: border-box;
+    
+}
+.team .container{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.team  .row{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.mgt50px{
+    margin-top: 30px;
+}
+.column
+{
+    margin: 0 10px;
+    margin-top: 20px;
+    position: relative;
+    width: calc(33% - 20px);
+    min-height: 260px;
+    background:#ff5476; 
+    float: left;
+    box-sizing: border-box;
+    
+    border-radius: 5%;
+    box-shadow: 0px 5px 2px rgb(248, 10, 10);
+
+}
+.notify-badge {
+    position: absolute;
+    right:-30px;
+    top:45px;
+    background:red;
+    text-align: center;
+    border-radius: 80px;
+    color:white;
+    padding:5px 10px;
+    font-size:10px;
+
+     }
+.column:hover{
+    transform: translateY(-3px);
+    transition: 1s linear;
+}
+
+
+.imgee{
+    width: 100px;
+    position: absolute;
+   top: -50px;
+   left: 50%;
+   transform: translateX(-50px);
+    height: 100px;
+    border-radius: 50%;
+     
+    
+  }
+  .imgee a{
+      text-decoration: none;
+      color: wheat;
+  }
+  .loc a{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 80px;
+      text-decoration: none;
+      color: white;
+  }
+   .imgee img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff5476;
+    
+   
+  }
+
+.row .column .detai{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.9);
+    width: 100%;
+    transition: .5s;
+    z-index: 2;
+    border-radius: 10px;
+}
+.row .column:hover .detai
+{
+    bottom: 0;
+    transition: .9s linear;
+}
+.row .column .detai h3{
+    margin: 0;
+    padding:0;
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+.row .column .detai h3 span{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #f00;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: -8px;
+}
+.row .column .detai h3 p{
+    color: white;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.row .column .detai ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+.row .column .detai ul li{
+    list-style: none;
+}
+.row .column .detai ul li a{
+    padding: 0px 10px;
+    color: #fff;
+    margin: 2px;
+    
+    
+}
+.row .column .detai ul li a .fa{
+    transition: .8s;
+}
+.row .column .detai ul li a:hover .fa{
+    transform: rotateY(360deg);
+  
+    transition: 1s linear;
+    color: #f00;
+    background-color: white;
+}
+
+
+@media (max-width: 992px)
+{
+    .team .container{
+        width: 90%;
+        margin: 20px 60px;
+        
+    }
+    .column{
+        width: calc(33% - 20px);
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .team  h1{
+        margin-bottom: 6px;
+    }
+    .mgt50px{
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .team .container{
+        width: 95%;
+        margin: 100px auto;
+        
+    }
+    .team .container  p{
+        margin-bottom: 30px;
+    }
+    .column{
+        width: calc(100% - 20px);
+        margin-left: 40px;
+        margin-top: 80px;
+        
+    }
+    .team  h1{
+        margin-bottom: 6px;
+    }
+    .mgt50px{
+        margin-top: -70px;
+    }
+    .loc a {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 500px){
+    .column{
+        width: calc(100% - 20px);
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    .team .container  p{
+        margin-bottom: 30px;
+    }
+    .mgt50px{
+        margin-top: -70px;
+    }
+    .loc a {
+        margin-bottom: 15px;
+    }
+}
